@@ -1,0 +1,13 @@
+提供四种语言扫码软件及源码
+
+android app
+
+基于zxing图形解码库，使用android框架
+
+c
+
+基于zbar解码库的二维码解码c语言软件及源码
+
+c++
+
+python
