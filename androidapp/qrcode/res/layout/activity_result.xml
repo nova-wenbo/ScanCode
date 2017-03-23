@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/wp4"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:background="#1296db" >
+
+    <ImageButton
+        android:id="@+id/result_Button1"
+        android:onClick="onClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="18dp"
+        android:background="#1296db"
+        android:src="@drawable/usr6" />
+       
+</RelativeLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  
+    android:background="#40FFFFFF"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+  <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:background="#DBDBDB" />
+   <EditText
+        android:id="@+id/editcode"
+        android:background="#40FFFFFF"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnScan"
+        android:layout_centerHorizontal="true"
+        
+ />
+  <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:background="#DBDBDB" />
+   <ImageView
+        android:id="@+id/imgcode"
+        android:background="#40FFFFFF"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/btnbarcode"
+        android:layout_centerHorizontal="true"
+        
+  />
+
+
+</LinearLayout>
+
+</LinearLayout>

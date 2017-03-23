@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wp1"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#1296db" >
+
+        <ImageButton
+            android:id="@+id/warn_Button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="18dp"
+            android:background="#1296db"
+            android:onClick="onClick"
+            android:src="@drawable/usr6" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.40"
+        android:text="
+版本：version0.01
+
+功能：快速扫描二维码或条形码
+
+
+发布日期：2017-02-14"
+        android:textColor="#000000" />
+
+</LinearLayout>
